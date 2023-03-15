@@ -84,8 +84,8 @@ def gameLoop():
            game_close = True
         x1 += x1_change
         y1 += y1_change
-        dis.fill(white)
-        pygame.draw.rect(dis, blue, [foodx, foody, snake_block, snake_block])
+        dis.fill(blue)
+        pygame.draw.rect(dis, green, [foodx, foody, snake_block, snake_block])
         snake_Head = [] #создаем список, в котором будет храниться показатель длины змейк при движениях
         snake_Head.append(x1) #Добавляем значения в список при изменении оси х.
         snake_Head.append(y1) #Добавляем значения в список при изменении оси y.
